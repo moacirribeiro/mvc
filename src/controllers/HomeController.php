@@ -8,7 +8,7 @@ class HomeController extends Controller {
     public function index() {
         $data = array();
 
-        $data["nome"] = "Influwork";
+        $data["nome"] = "Relatórios Comercial";
 
         $this->render('home', $data);
     }
